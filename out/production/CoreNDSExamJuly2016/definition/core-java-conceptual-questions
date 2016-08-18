@@ -1,0 +1,83 @@
+Please answer the below core-java Questions:
+
+
+What jdk contains or composed of and define each components?
+What is IDE?
+What are the IDEs available in the market to support java?
+Explain the entire java life cycle.
+what is class?
+What is object?
+What is the entry point of an application?
+Why main is static?
+What is the difference between an Interface and Abstract class?
+Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+what is Access Specifier?
+What is OOP ? Define each feature of java OOP.
+What is API? Name list of API that you have used so far.
+Does java support multiple inheritance?
+What is method overloading and when it happens?
+What is method overriding and when it happens?
+Explain exceptions in java and how to handle it.
+What is static keyword in java? How it has been used in variables and methods ?
+
+What is final and how it has been used variables and methods?
+Ans:A final variable can only be initialized once, either via an initializer or an assignment statement.
+It does not need to be initialized at the point of declaration: this is called a "blank final" variable.
+
+What is final, finally and finalize?
+Ans: Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
+Finally is used to place important code, it will be executed whether exception is handled or not.
+ Finalize is used to perform clean up processing just before object is garbage collected.
+
+What is a constructor ?
+Ans: A constructor is a bit of code that allows you to create objects from a class.
+You call the constructor by using the keyword new , followed by the name of the class, followed by any necessary parameters.
+
+What is "this" keyword in java ?
+Ans: this is a keyword in Java. It can be used inside the Method or constructor of Class.
+It(this) works as a reference to the current Object whose Method or constructor is being invoked.
+ The this keyword can be used to refer to any member of the current object from within an instance Method or a constructor.
+
+
+What is "super" keyword in java?
+Ans: It is used inside a sub-class method definition to call a method defined in the super class.
+Private methods of the super-class cannot be called. Only public and protected methods can be called by the super keyword.
+It is also used by class constructors to invoke constructors of its parent class.
+
+
+What is JVM stand for ?
+Ans: JVM (Java Virtual Machine) is a software.
+It is a specification that provides runtime environment in which java bytecode can be executed
+
+What version of java are you using?
+Ans: Java SE 8u102 is a patch-set updated
+
+
+What is JAR stand for ?
+Ans:JAR stands for Java Archive. It is a compressed file, which means that it is a file that has been reduced in size.
+ This is often done to speed up distribution over the Internet and to save storage space. BitZipper can open and create JAR files.
+
+
+What is compile time and run time?
+Ans: The source code must be compiled into machine code in order to become and executable program. This compilation process is referred to as compile time.
+A compiled program can be opened and run by a user. When an application is running, it is called runtime.
+
+What is heap?
+Ans: The JVM has a heap that is the runtime data area from which memory for all class instances and arrays are allocated.
+It is created at the JVM start-up. The heap size may be configured with the following VM options: -Xmx<size> - to set the maximum Java heap size.
+
+
+
+
+How java manage it's memory?
+
+Ans: Java objects reside in an area called the heap. The heap is created when the JVM starts up and may increase or decrease in size while the application runs. When the heap becomes full, garbage is collected.
+During the garbage collection objects that are no longer used are cleared, thus making space for new objects.
+
+
+
+What is the difference between String, StringBuffer and StringBuilder?
+
+Ans: StringBuffer and StringBuilder have the same methods with one difference and that's of synchronization.
+StringBuffer is synchronized( which means it is thread safe and hence you can use it when you implement threads for your methods)
+ whereas StringBuilder is not synchronized( which implies it isn't thread safe).

@@ -3,26 +3,104 @@ Please answer the below Data Structure Questions:
 why do we need data structure?
 List out the areas in which data structures are applied extensively?
 what is an Array?
+Ans:  An array is a special variable, which can hold more than one value at a time.
 what is the difference between the Array and ArrayList?
+Ans: Array is static in size that is fixed length data structure, One can not change the length after creating the Array object.
+  ArrayList is dynamic in size . Each ArrayList object
+   has instance variable capacity which indicates the size of the ArrayList.
+   As elements are added to an ArrayList its capacity grows automatically
+
 what is LinkedList?
+Ans:  A linked list is a linear data structure where each element is a separate object.
+Each element (we will call it a node) of a list is comprising of two items - the data and a reference to the next node.
+The last node has a reference to null. The entry point into a linked list is called the head of the list.
 what is queue?
+Ans: The java.util.Queue interface is a subtype of the java.util.Collection interface.
+It represents an ordered list of objects just like a List , but its intended use is slightly different.
+ A queue is designed to have elements inserted at the end of the queue, and elements removed from the beginning of the queue.
 what is stack?
+Ans: A stack is a data structure that allows data to be inserted (a 'push' operation),
+and removed (a 'pop' operation). Many stacks also support a read ahead (a 'peek' operation), which reads data without removing it.
+ A stack is a LIFO-queue, meaning that the last data to be inserted will be the first data to be removed.
+
 what is FIFO and LIFO?
+Ans: FIFO vs. LIFO Accounting. FIFO and LIFO are cost layering methods used to value the cost of goods sold and ending inventory.
+ FIFO is a contraction of the term "first in, first out," and means that the goods first added to inventory are assumed
+to be the first goods removed from inventory for sale.
 what is the order of complexity?
+ans: The most common metric for calculating time complexity is Big O notation.
+This removes all constant factors so that the running time can be estimated in relation to N as N approaches infinity.
 what is the best case to search an element from an array?
+Ans : An element in a sorted array can be found in O(log n) time via binary search.
+But suppose we rotate an ascending order sorted array at some pivot unknown to you beforehand
 what is the worst case to search an element from an array?
+An element in a sorted array can be found in O(log n) time via binary search.
+ But suppose we rotate an ascending order sorted array at some pivot unknown to you beforehand
 what is tree in data structure?
+Ans: In computer science, a tree is a widely used abstract data type (ADT)—
+or data structure implementing this ADT—that simulates a hierarchical tree structure,
+ with a root value and subtrees of children with a parent node, represented as a set of linked nodes.
+
 what is graph in data structure?
+Ans: A graph data structure consists of a finite (and possibly mutable) set of vertices or nodes or points,
+ together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph.
 what is the difference between the HashTable and HashMap?
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+
+
 How HashMap works in java?
+Ans: When put() method is used to store (Key, Value) pair, HashMap implementation calls hashcode on Key object
+ to calculate a hash that is used to find a bucket where Entry object will be stored.
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+ans: ArrayIndexOutOfBoundsException is thrown when an array is accessed with an illegal index.
+
+     The index accessed may be >
+
+     • Negative or
+
+
+     • equal to the size of array
+
+
+     • greater than the size of array
+
 What are the different ways of copying an array into another array?
+Ans: Arrays.copyOf(): If you want to copy first few elements of an array or full copy of array, you can use this method.
+Obviously it’s not versatile like System.arraycopy() but it’s also not confusing and easy to use.
+
+
+
 What is difference between an array and a linked list?
+Ans: An array is a group of data structures that is stored as a contiguous piece of memory, e.g. Memory locations
+100, 101, 102, 103, and so on.
+While it can be managed dynamically, it's usually cumbersome to edit an array w.r.t. memory usage.
+Linked lists on the other hand consist of a node, which itself contains a pointer to another node. These nodes are not stored contiguously.
+ e.g. 100, 150, 234, 557, 108, 72, and so on.
+ These are much easier to dynamically manipulate.
+
+
 What is DFS and BFS?
+Ans:is an algorithm for traversing or searching tree or graph data structures.
+ It starts at the tree root (or some arbitrary node of a graph, sometimes referred to as a 'search key')
+ and explores the neighbor nodes first,
+ before moving to the next level neighbors.
+
 What is Recursion?
+Ans: Recursion is a basic programming technique you can use in Java, in which a method calls itself to solve some problem.
+A method that uses this technique is recursive. Many programming problems can be solved only by recursion,
+and some problems that can be solved by other techniques are better solved by recursion.
 What is Big-(O)-notation?
+Ans: Big O notation is used in Computer Science to describe the performance or
+ complexity of an algorithm. Big O specifically describes the worst-case scenario,
+  and can be used to describe the execution time required or the space used
+ (e.g. in memory or on disk) by an algorithm
 Outlined different kind of sorting algorithm with time complexity?
+Ans:
+A sorting algorithm is an algorithm that puts elements of a list in a certain order. The most-used orders are numerical order and lexicographical order. Efficient sorting is important for optimizing the use of other algorithms (such as search and merge algorithms) which require input data to be in sorted lists; it is also often useful for canonicalizing data and for producing human-readable output. More formally, the output must satisfy two conditions:
+1.The output is in nondecreasing order (each element is no smaller than the previous element according to the desired total order);
+2.The output is a permutation (reordering) of the input.
+
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
